@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitecto David Benitez Ponce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #013220;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #005f73;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #013220;
+        }
+        .about, .services, .contact {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about {
+            border-left: 4px solid #013220;
+        }
+        .services {
+            border-left: 4px solid #005f73;
+        }
+        .contact {
+            border-left: 4px solid #6a994e;
+        }
+        footer {
+            background-color: #013220;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Arquitecto David Benitez Ponce</h1>
+        <p>Consultoría Profesional en Planeación y Programación para la Industria de la Construcción</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>Sobre mí</h2>
+        <p>Soy el Arquitecto David Benitez Ponce, con amplia experiencia en asesoría a empresas constructoras en áreas de programación, planeación, concursos de obra pública y privada, así como análisis financieros. Mi objetivo es ayudar a mis clientes a optimizar sus proyectos desde la fase inicial hasta la entrega final, brindando soluciones personalizadas y eficientes.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Asesoría en programación y planeación de proyectos constructivos.</li>
+            <li>Elaboración de concursos para obra pública y privada.</li>
+            <li>Análisis financieros y de precios unitarios.</li>
+            <li>Análisis de erogaciones monetarias antes, durante y después del proyecto.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Para obtener más información o solicitar una consulta, puedes contactarme a través de:</p>
+        <ul>
+            <li>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></li>
+            <li>Teléfono: +52 123 456 7890</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Arquitecto David Benitez Ponce. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
